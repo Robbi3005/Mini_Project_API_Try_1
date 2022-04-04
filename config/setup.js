@@ -14,6 +14,7 @@ class dataBase {
         let sql = `CREATE TABLE merchant_info(
         id INT NOT NULL PRIMARY KEY,
         password VARCHAR(255) NOT NULL,
+        name VARCHAR(255) NOT NULL,
         address VARCHAR(255) NOT NULL,
         join_date DATETIME NOT NULL,
         phone_number BIGINT
